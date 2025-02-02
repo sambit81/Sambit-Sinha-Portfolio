@@ -1,5 +1,3 @@
-Here's a README file for your personal website:  
-
 ---
 
 # Personal Portfolio Website  
@@ -8,11 +6,9 @@ This is a personal portfolio website for **Sambit Sinha**, showcasing skills, pr
 
 ## Features  
 
-- **Responsive Design**: Ensures a seamless experience on desktops, tablets, and mobile devices.  
-- **Smooth Animations**: Adds interactive transitions for a polished user experience.  
-- **Dark Mode Toggle**: Allows users to switch between light and dark modes.  
+- **Responsive Design**: Ensures a seamless experience on desktops, tablets, and mobile devices.
 - **Projects Showcase**: Displays portfolio projects with links to GitHub repositories.  
-- **Contact Form Integration**: Users can send messages directly using Google Forms.  
+- **Contact Form Integration**: Users can send messages directly using forms.  
 
 ---
 
@@ -45,51 +41,23 @@ personal-website/
 ## Technologies Used  
 
 - **Frontend**: HTML, CSS, Bootstrap  
-- **Styling**: CSS custom styles  
-- **Interactivity**: JavaScript for dark mode toggle and animations  
-
----
-
-## Portfolio Projects  
-
-### 1. **Todo App**  
-**Description:** A task management app for creating, editing, searching, and filtering todos.  
-[GitHub Repository](https://github.com/sambit81/Todo-App)  
-
-### 2. **Stock Market India**  
-**Description:** Provides real-time insights into the Indian stock market.  
-[GitHub Repository](https://github.com/sambit81/Stock-Market-India)  
-
-### 3. **Blog App**  
-**Description:** A blog platform where users can create and view blog posts.  
-[GitHub Repository](https://github.com/sambit81/Blog-App)  
-
----
-
-## Contact  
-
-- **Email**: sambitsinha81@gmail.com  
-- **Phone**: +91 8763458972  
+- **Styling**: CSS custom styles
 
 ---
 
 ## GIF Demonstrations  
 
-1. **Website Overview**  
+1. **Desktop View**  
    ![Website Overview](gifs/website-overview.gif)  
 
-2. **Dark Mode Toggle**  
-   ![Dark Mode Toggle](gifs/dark-mode.gif)  
-
-3. **Project Navigation**  
-   ![Project Navigation](gifs/project-navigation.gif)  
-
+2. **Mobile View**  
+   ![Dark Mode Toggle](gifs/dark-mode.gif)
+   
 ---
 
 ## Future Enhancements  
 
-- Add a **blog section** for personal updates.  
-- Implement **backend support** for dynamic content.  
+- Add a **blog section** for personal updates.    
 - Improve animations for better **user engagement**.  
 
 ---
