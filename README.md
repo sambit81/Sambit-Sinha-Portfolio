@@ -27,11 +27,22 @@ Simply open `index.html` in a browser to view the website.
 
 ```
 personal-website/
-│── index.html             # Main HTML file  
-│── styles.css             # Custom CSS styles  
-│── images/                # Contains profile picture and project thumbnails  
-│── gifs/                  # Contains GIFs for demonstration  
-│── README.md              # Documentation  
+├── index.html                # Main HTML file
+├── css/
+│   ├── style.css             # Styling for the website
+├── gifs/                     # Contains GIFs for demonstration 
+│   ├── Desktop View.gif
+│   ├── Mobile View.gif
+├── images/                   # Contains profile picture and project thumbnails 
+│   ├── Blog-App.webp
+│   ├── Sambit-Sinha-Portfolio.webp
+│   ├── Stock-Market-India.webp
+│   ├── Todo-App.webp
+│   ├── about.jpg
+│   ├── bg.png
+│   ├── profile_pic.jpg
+│   ├── youtube-clone.jpg
+├── README.md                 # Documentation for the project
 ```
 
 ---
@@ -46,10 +57,10 @@ personal-website/
 ## GIF Demonstrations  
 
 1. **Desktop View**  
-   ![Website Overview](gifs/Desktop%20View.gif)  
+   ![Desktop View](gifs/Desktop%20View.gif)  
 
 2. **Mobile View**  
-   ![Dark Mode Toggle](gifs/Mobile%20View.gif)
+   ![Mobile View](gifs/Mobile%20View.gif)
    
 ---
 
