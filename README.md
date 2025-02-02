@@ -46,10 +46,10 @@ personal-website/
 ## GIF Demonstrations  
 
 1. **Desktop View**  
-   ![Website Overview](gifs/website-overview.gif)  
+   ![Website Overview](gifs/Desktop%20View.gif)  
 
 2. **Mobile View**  
-   ![Dark Mode Toggle](gifs/dark-mode.gif)
+   ![Dark Mode Toggle](gifs/Mobile%20View.gif)
    
 ---
 
