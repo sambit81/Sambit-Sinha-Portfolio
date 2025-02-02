@@ -1,5 +1,3 @@
----
-
 # Personal Portfolio Website  
 
 This is a personal portfolio website for **Sambit Sinha**, showcasing skills, projects, and contact information. It is built using **HTML, CSS, and Bootstrap** for a clean and responsive design.  
@@ -16,8 +14,8 @@ This is a personal portfolio website for **Sambit Sinha**, showcasing skills, pr
 
 ### 1. Clone the Repository  
 ```bash
-git clone <repository-url>
-cd personal-website
+git clone https://github.com/sambit81/Sambit-Sinha-Portfolio.git
+cd Sambit-Sinha-Portfolio
 ```
 
 ### 2. Open the Website  
@@ -64,8 +62,4 @@ personal-website/
 
 ## License  
 
-This project is **open-source** and free to use under the **MIT License**.  
-
----
-
-Let me know if you'd like to add more details! 🚀
+This project is **open-source** and free to use under the **MIT License**.
