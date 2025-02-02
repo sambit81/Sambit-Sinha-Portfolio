@@ -26,7 +26,7 @@ Simply open `index.html` in a browser to view the website.
 ## Project Structure  
 
 ```
-personal-website/
+Sambit-Sinha-Portfolio/
 ├── index.html                # Main HTML file
 ├── css/
 │   ├── style.css             # Styling for the website
