@@ -1,0 +1,34 @@
+.title {
+    margin-top: 4.5rem;
+}
+
+.title-bg {
+    height: 100vh;
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*
+    background-attachment: fixed;
+    */
+    background-position: center;
+    /*
+    background-size: cover;	The image scales to cover the element, cropping excess portions if necessary.
+    background-repeat: no-repeat;	The image appears once; no repetition occurs, even if the element is larger than the image.
+    background-attachment: fixed;	The image stays in place while the content scrolls, creating a parallax effect.
+    background-position: center;	Ensures the image’s center aligns with the element’s center, keeping focus on the middle.
+    */
+}
+
+.title-head {
+    font-size: 4.5rem;
+    color: white;
+}
+
+.title-subhead {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbarScroll.navbarDark {
+    background-color: black;
+}
