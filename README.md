@@ -49,7 +49,7 @@ Sambit-Sinha-Portfolio/
 
 ## Technologies Used  
 
-- **Frontend**: HTML, CSS, Bootstrap  
+- **Frontend**: HTML, CSS, Bootstrap, JavaScript
 - **Styling**: CSS custom styles
 
 ---
