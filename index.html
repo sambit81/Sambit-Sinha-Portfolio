@@ -18,6 +18,78 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="dropdown">
+                <button id="dark-mode-button"
+                    class="btn btn-success dropdown-toggle d-flex align-items-center py-2" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false" fdprocessedid="w0dhh">
+                </button>
+                <ul id="ul-list" class="dropdown-menu dropdown-menu-end shadow"
+                    aria-labelledby="bd-theme-text"
+                    style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate3d(0px, 40px, 0px);"
+                    data-popper-placement="bottom-end">
+                    <li id="light">
+                        <button type="button" class="dropdown-item d-flex align-items-center"
+                            data-bs-theme-value="light" aria-pressed="true" fdprocessedid="wv4nus">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-brightness-high-fill me-2 opacity-50"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708">
+                                </path>
+                            </svg>
+                            Light
+                            <svg id="light-check" xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-check2 ms-auto d-none"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0">
+                                </path>
+                            </svg>
+                        </button>
+                    </li>
+                    <li id="dark">
+                        <button type="button" class="dropdown-item d-flex align-items-center"
+                            data-bs-theme-value="light" aria-pressed="true" fdprocessedid="wv4nus">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-moon-stars-fill me-2 opacity-50"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278">
+                                </path>
+                                <path
+                                    d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z">
+                                </path>
+                            </svg>
+                            Dark
+                            <svg id="dark-check" xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-check2 ms-auto d-none"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0">
+                                </path>
+                            </svg>
+                        </button>
+                    </li>
+                    <li id="auto">
+                        <button type="button" class="dropdown-item d-flex align-items-center"
+                            data-bs-theme-value="auto" aria-pressed="false" fdprocessedid="h372ba">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-circle-half me-2 opacity-50"
+                                viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"></path>
+                            </svg>
+                            Auto
+                            <svg id="auto-check" xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-check2 ms-auto d-none"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0">
+                                </path>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+            </div>
             <!--
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav" style="text-align: end;">
@@ -63,7 +135,7 @@
                 <div class="col-lg-6">
                     <p class="lead">Hi! I'm Sambit Sinha, a passionate Java and Web developer. With over a year of experience, I specialize in building responsive and visually appealing websites. Proficient in HTML, CSS, JavaScript. Want to collaborate? Feel free to check out my projects or drop me a message!</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a href="" type="button" class="btn btn-outline-dark btn-lg px-4 me-md-2">My Resume</a>
+                        <a id="my-resume-button" href="https://drive.google.com/file/d/1zHcaCchb-xzxuOpX1GJoCVlKNsfZfExI/view?usp=sharing" type="button" class="btn btn-outline-dark btn-lg px-4 me-md-2" target="_blank">My Resume</a>
                     </div>
                 </div>
             </div>
@@ -229,6 +301,137 @@
         });
 
         document.getElementById("year").textContent = new Date().getFullYear();
+
+        function darkMode() {
+            const darkMode = localStorage.getItem('darkMode');
+            console.log(darkMode != null);
+
+            if (darkMode === 'light' || darkMode === 'auto') {
+                /*
+                const list = document.getElementById("ul-list");
+                if (list.hasAttribute("data-bs-theme")) {
+                    list.removeAttribute("data-bs-theme");
+                }
+                */
+               document.querySelector('html').setAttribute('data-bs-theme', 'light');
+               document.getElementById('my-resume-button').classList.remove('btn-outline-light');
+               document.getElementById('my-resume-button').classList.add('btn-outline-dark');
+            } else {
+                /*
+                const list = document.getElementById("ul-list");
+                list.setAttribute("data-bs-theme", "dark");
+                */
+               document.querySelector('html').setAttribute('data-bs-theme', 'dark');
+               document.getElementById('my-resume-button').classList.remove('btn-outline-dark');
+               document.getElementById('my-resume-button').classList.add('btn-outline-light');
+            }
+        }
+
+        const light = document.getElementById("light");
+        const lightCheck = document.getElementById("light-check");
+        const dark = document.getElementById("dark");
+        const darkCheck = document.getElementById("dark-check");
+        const auto = document.getElementById("auto");
+        const autoCheck = document.getElementById("auto-check");
+
+        const darkModeButton = document.getElementById("dark-mode-button");
+
+        function enableLight() {
+            light.firstElementChild.classList.add('active');
+            lightCheck.classList.remove('d-none');
+            dark.firstElementChild.classList.remove('active');
+            darkCheck.classList.add('d-none');
+            auto.firstElementChild.classList.remove('active');
+            autoCheck.classList.add('d-none');
+
+            if (darkModeButton.childElementCount !== 0) {
+                darkModeButton.firstElementChild.remove();
+            }
+
+            darkModeButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-brightness-high-fill my-1"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708">
+                                                </path>
+                                            </svg>`;
+        }
+
+        function enableDark() {
+            light.firstElementChild.classList.remove('active');
+            lightCheck.classList.add('d-none');
+            dark.firstElementChild.classList.add('active');
+            darkCheck.classList.remove('d-none');
+            auto.firstElementChild.classList.remove('active');
+            autoCheck.classList.add('d-none');
+
+            if (darkModeButton.childElementCount !== 0) {
+                darkModeButton.firstElementChild.remove();
+            }
+
+            darkModeButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-moon-stars-fill my-1"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278">
+                                                </path>
+                                                <path
+                                                    d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.73 1.73 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.73 1.73 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.73 1.73 0 0 0 1.097-1.097zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z">
+                                                </path>
+                                            </svg>`;
+        }
+
+        function enableAuto() {
+            light.firstElementChild.classList.remove('active');
+            lightCheck.classList.add('d-none');
+            dark.firstElementChild.classList.remove('active');
+            darkCheck.classList.add('d-none');
+            auto.firstElementChild.classList.add('active');
+            autoCheck.classList.remove('d-none');
+
+            if (darkModeButton.childElementCount !== 0) {
+                darkModeButton.firstElementChild.remove();
+            }
+
+            darkModeButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-circle-half my-1"
+                                                viewBox="0 0 16 16">
+                                                <path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16"></path>
+                                            </svg>`;
+        }
+
+        light.addEventListener("click", () => {
+            enableLight();
+            localStorage.setItem('darkMode', 'light');
+            darkMode();
+        });
+
+        dark.addEventListener("click", () => {
+            enableDark();
+            localStorage.setItem('darkMode', 'dark');
+            darkMode();
+        });
+
+        auto.addEventListener("click", () => {
+            enableAuto();
+            localStorage.setItem('darkMode', 'auto');
+            darkMode();
+        });
+
+        const mode = localStorage.getItem('darkMode');
+        //const darkModeButton = document.getElementById("dark-mode-button");
+        if (mode === 'light') {
+            enableLight();
+        } else if (mode === 'dark') {
+            enableDark();
+        } else if (mode === 'auto') {
+            enableAuto();
+        } else {
+            localStorage.setItem('darkMode', 'light');
+            enableLight();
+        }
+
+        darkMode();
     </script>
 </body>
 
