@@ -33,3 +33,17 @@
 .navbarScroll.navbarDark {
     background-color: black;
 }
+
+:root,
+[data-bs-theme="light"] {
+    --icon-color: black;
+}
+
+[data-bs-theme="dark"] {
+    --icon-color: white;
+}
+
+.list-unstyled .link-body-emphasis svg {
+    fill: var(--icon-color);
+    transition: fill 0.3s ease-in-out;
+}
